@@ -1,17 +1,17 @@
 @import './colors';
 
 // Type
-$serif: 'Gentium Book Basic', serif !default;
-$sans: Roboto, sans-serif !default;
-$font-small: 12px !default;
-$font-med: 16px !default;
-$font-big: 22px !default;
+$sans-title: 'Droid Sans', sans-serif !default;
+$sans: 'Open Sans', sans-serif !default;
+$font-small: 14px !default;
+$font-med: 18px !default;
+$font-big: 24px !default;
 $font-huge: 40px !default;
 $line-height: 130% !default;
 
 // Colors
-$primary: $turqoise !default;
-$secondary: lighten($turqoise, 10%) !default;
+$primary: $midnight-blue !default;
+$secondary: lighten($midnight-blue, 10%) !default;
 $accent: $yellow !default;
 
 $body-background: $off-white !default;

@@ -6,6 +6,10 @@
 	background: $turqoise;
 }
 
+.bg--midnight-blue {
+	background: $midnight-blue;
+}
+
 .bg--green-sea {
 	background: $green-sea;
 }
@@ -303,7 +307,7 @@
 }
 
 .color--pink {
-	color: $pink;
+	color: darken($pink, 20%);
 }
 
 .color--indigo {
@@ -367,3 +371,6 @@
 	color: $accent;
 }
 
+.color--dark-pink {
+	color: darken($pink, 20%);
+}
