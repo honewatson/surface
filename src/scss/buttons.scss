@@ -78,6 +78,7 @@
 
 .btn--secondary {
 	@include btn-gradient($secondary);
+	color: $off-white;
 	&:hover {
 		background-color: lighten($secondary, 5%);
 	}

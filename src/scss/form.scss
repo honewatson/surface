@@ -228,6 +228,7 @@ input[type=range]::-ms-thumb {
 textarea {
 	border: solid 1px $grey;
 	transition: border 0.3s $cubic;
+	padding: 5px;
 	&:focus {
 		border: solid 1px $primary;
 		outline: none;
