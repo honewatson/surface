@@ -1,6 +1,6 @@
 @import './_imports/_variables';
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,500,700|Droid+Sans:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,500,700|Droid+Sans:700,500);
 
 div, p, h1, h2, h3, h4, h5, h6, a, input, li, textarea, label, header, aside, menu, body {
 	font-family: $sans;
@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, legend, label {
 	font-family: $sans-title;
 	margin-bottom: 1em*0.2;
 	line-height: 130%;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 p {

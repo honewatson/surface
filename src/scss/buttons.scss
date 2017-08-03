@@ -1,5 +1,9 @@
 @import './_imports/_variables';
 
+input, textarea, keygen, select, button {
+	font-family: $sans;
+}
+
 [class^="btn"] {
 	transition: all 0.3s $cubic;
 	box-shadow: $box-shadow-float;
